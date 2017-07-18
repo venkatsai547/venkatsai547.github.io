@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First Post, writing math in Github Markdown</title>
+        <!-- Link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            TeX: {
+                equationNumbers: {
+                autoNumber: "AMS"
+            }
+        },
+        tex2jax: {
+        inlineMath: [ ['$','$'], ['\(', '\)'] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscapes: true,
+        }
+        });
+        </script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<h1>My First Post, writing math in Github Markdown</h1>
+<p class="meta">18 Jul 2017</p>
+
+<div class="post">
+  <p>Well. Finally got around to putting this old website together. Neat thing about it - powered by <a href="http://jekyllrb.com">Jekyll</a> and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be. It can hadle math as well with the help of mathjax. See below:</p>
+
+<p>The p.d.f of a Gaussian distribution is given by,</p>
+
+<script type="math/tex; mode=display">f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} x^2}</script>
+
+</div>
+
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:write2koushik.stat@outlook.com">email</a></li>
+        		<li><a href="https://github.com/koushikkhan">Github</a></li>
+						<li><a href="https://www.linkedin.com/in/koushikkhan">LinkedIn</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
